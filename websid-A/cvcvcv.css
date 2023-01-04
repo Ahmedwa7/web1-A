@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.iconn{
+    background-color: aqua;
+}
+.active1 a{
+    text-decoration: none;
+}
+.cont{
+    margin-top: 50px;
+}
+.ghgh{
+    font-size: 50px;
+    color: aqua;
+    padding-right: 20px;
+}
+.iecon{
+    background-color: aqua;
+}
+.ico{
+    color: white;
+    font-size: 40px;
+}
+.bc{
+    margin-top: 50px;
+}
+.xcxc{
+    width: 200px;
+
+}
+.rt{
+    width: 100px;
+    margin-left: 50px;
+    height: 100px;
+    border-radius: 50%;
+}
+.con{
+    box-shadow: 5px 10px 5px 10px  #888;
+}
+.clo{
+        margin-left: 20px;
+}
+.fa-star{
+    color: yellow;
+}
+#button {
+    display: inline-block;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+#button:active {
+    background-color: aqua;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+.hov:hover{
+    box-shadow: 5px 10px 5px 10px #888;
+}
